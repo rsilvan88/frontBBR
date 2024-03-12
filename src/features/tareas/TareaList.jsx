@@ -1,4 +1,4 @@
-import { fetchTareas, deleteTarea } from "./tareasSlice";
+import { deleteTarea } from "./tareasSlice";
 import { useDispatch, useSelector } from "react-redux";
 
 import { Link } from "react-router-dom";

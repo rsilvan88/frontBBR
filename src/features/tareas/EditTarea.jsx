@@ -24,7 +24,7 @@ export function EditTarea() {
   };
 
   const [descripcion, setDescripcion] = useState(tarea.descripcion);
-  const [fechaModificacion] = "";
+
 
   const handleDescripcion = (e) => setDescripcion(e.target.value);
 

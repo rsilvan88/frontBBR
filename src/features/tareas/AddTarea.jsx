@@ -9,7 +9,6 @@ export function AddTarea() {
   const history = useHistory();
 
   const [descripcion, setDescripcion] = useState("");
-  const [fechaCreacion] = useState(new Date().toISOString());
   const [fechaModificacion] = "";
 
   const [error, setError] = useState(null);
